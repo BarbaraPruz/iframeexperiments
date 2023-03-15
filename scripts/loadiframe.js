@@ -25,6 +25,7 @@ window.onload = () => {
     adjustedWidth,
     adjustedHeight
   );
+  // To Do: on mobile, maybe full height and so different aspect ratio?
   iframeContainerElement.style.width = `${adjustedWidth}px`;
   // iframeContainerElement.style.height = `${adjustedHeight}px`;
 
