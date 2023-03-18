@@ -2,8 +2,8 @@ window.onload = () => {
   const iframeContainerElement = document.getElementById("iframe-container");
   const iframeElement = document.getElementById("responsive-iframe");
 
-  const minWidth = 800;
-  const minHeight = 750;
+  const minWidth = 700;
+  const minHeight = 850;
   const width = iframeContainerElement.clientWidth;
   const height = iframeContainerElement.clientHeight;
   let adjustedWidth;
