@@ -10,8 +10,8 @@ window.onload = () => {
   let adjustedHeight;
   let aspectRatio;
   if (width < minWidth) {
-    adjustedWidth = `100vw`;
-    adjustedHeight = `100vh`;
+    adjustedWidth = `97vw`;
+    adjustedHeight = `97vh`;
   } else {
     adjustedWidth = `${width}px`;
     if (width * (4 / 3) > minHeight) {
@@ -35,4 +35,10 @@ window.onload = () => {
   if (aspectRatio) {
     iframeElement.style.aspectRatio = aspectRatio;
   }
+  const iframe95 = document.getElementById("iframe-container-95");
+  const iframe93 = document.getElementById("iframe-container-93");
+  iframe95.style.width = "95vw";
+  iframe95.style.height = "95vh";
+  iframe93.style.width = "93vw";
+  iframe93.style.height = "93vh";
 };

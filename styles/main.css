@@ -29,9 +29,16 @@ body {
   min-height: 80vh;
 }
 
+.mobile-only {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .sidebar {
     display: none;
+  }
+  .mobile-only {
+    display: flex;
   }
 }
 
